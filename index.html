@@ -534,6 +534,33 @@
         .delay-3 {
             animation-delay: 0.6s;
         }
+        .tool-card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    padding: 1.5rem;
+}
+
+.tool-card-link:hover {
+    text-decoration: none;
+}
+
+.use-tool {
+    display: inline-block;
+    color: var(--primary);
+    font-weight: 500;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.use-tool i {
+    margin-left: 0.3rem;
+    transition: transform 0.3s;
+}
+
+.tool-card-link:hover .use-tool i {
+    transform: translateX(3px);
+}
     </style>
 </head>
 <body>
